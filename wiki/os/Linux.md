@@ -17,3 +17,7 @@ CPU：
 硬盘数量、大小：sudo fdisk -l |grep "Disk /dev/sd"            
 硬盘型号：sudo hdparm -i /dev/sda |grep "Model"         
 
+## 查找IP冲突
+arping -I 网卡名（如eth0）冲突地址
+
+
